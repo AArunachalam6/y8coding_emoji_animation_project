@@ -1,0 +1,67 @@
+knife = "🔪"
+fairy = "🧚"
+potion = "🧪"
+celebrate = "🥳"
+party = "🎊"
+x = "❌"
+bday = "🎂"
+present = "🎁"
+people = "👥"
+
+
+
+from os import system
+from time import sleep
+
+for i in range(10):
+    print(" " * i, fairy, party, celebrate, bday, present)
+    sleep(0.1)
+
+from time import sleep
+
+for i in range(5, 51, 5):
+    print(i, i * people)
+for i in range(50, 4, -5):
+    print(i, i * people)
+for i in range(6):
+    print("" * i, people) 
+    sleep(0.133)
+    
+
+
+
+from os import system
+from time import sleep
+clear = lambda : system("clear")
+
+x = "💝"
+
+for i in range(100):
+    print(" " * i, x)
+    sleep(0.06)
+    clear()
+
+
+pre = ("                       🎁.              ")
+
+print(pre)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
